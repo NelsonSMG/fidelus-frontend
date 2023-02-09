@@ -3,6 +3,11 @@ import { CommonModule } from '@angular/common';
 
 //modulos
 import { SharedModule } from '../shared/shared.module';
+
+//rutas
+import { PAGES_ROUTES } from './pages.routes';
+
+//componentes
 import { PagesComponent } from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
@@ -16,6 +21,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
   ],
   imports: [
     CommonModule,
+    PAGES_ROUTES,
     SharedModule
   ]
 })
