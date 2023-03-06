@@ -10,11 +10,17 @@ import { PAGES_ROUTES } from './pages.routes';
 //componentes
 import { PagesComponent } from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { ClientesComponent } from './clientes/clientes.component';
+import { ConceptosComponent } from './conceptos/conceptos.component';
+import { ReglasComponent } from './reglas/reglas.component';
 
 @NgModule({
   declarations: [
     PagesComponent,
-    DashboardComponent
+    DashboardComponent,
+    ClientesComponent,
+    ConceptosComponent,
+    ReglasComponent
   ],
   exports: [
     PagesComponent
